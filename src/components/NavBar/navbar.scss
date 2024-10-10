@@ -1,0 +1,30 @@
+.navbar{
+    height: 5rem;
+    background-color: black;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+    ul{
+        display: flex;
+        list-style: none;
+
+        li{
+            padding: 0 20px;
+        }
+    }
+
+    .brand{
+        align-items: center;
+    }
+
+    .cartwidget{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        gap: 10px;
+
+        .icon-cart{
+        }
+    }
+}
